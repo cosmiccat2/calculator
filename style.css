@@ -1,0 +1,53 @@
+#calculatorBody {
+    display: flex;
+    width: 400px ;
+    height: 315px;
+    background-image: linear-gradient(to bottom right , #1192e8 , #a56eff);
+    margin: 0 auto;
+    flex-direction:column ;
+    border-radius: 20px;
+}
+#display{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    background-color: #c6c6c6 ;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+#buttons {
+    width: 20%;
+    height: 40px;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow: none; /* Initially, no shadow */
+    transition: box-shadow 0.3s ease; /* Transition effect for box-shadow */
+  }
+  
+  #buttons.shadow-effect {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Increased blur radius for the shadow effect */
+  }
+.buttonl{
+margin-left: 10px;
+}
+.buttonr{
+margin-right: 10px;
+}
+#buttonarea {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c6c6c6;
+}
